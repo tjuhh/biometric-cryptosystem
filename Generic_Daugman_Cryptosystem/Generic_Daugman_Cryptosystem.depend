@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1404144824 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\berlekamp.c
+	<stdio.h>
+	"ecc.h"
+
+1402690862 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\ecc.h
+
+1242261614 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\crcgen.c
+	"ecc.h"
+
+1426090933 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\cryptosystem.c
+	<stdlib.h>
+	<stdio.h>
+	"cryptosystem.h"
+	"number_printing.h"
+	"testing.h"
+	"ecc.h"
+	"hadamard.h"
+	"data.h"
+
+1426090890 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\cryptosystem.h
+
+1401306844 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\number_printing.h
+
+1413207752 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\testing.h
+
+1402517470 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\hadamard.h
+
+1426091011 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\data.h
+	"cryptosystem.h"
+
+1426090330 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\data.c
+	"data.h"
+
+1426091286 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\enrollment.c
+	"cryptosystem.h"
+	"ecc.h"
+	"hadamard.h"
+	"number_printing.h"
+	"fix.h"
+	"hash.h"
+
+1413577116 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\fix.h
+	"cryptosystem.h"
+
+1421180548 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\hash.h
+
+1406559904 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\fourier_transform.c
+	"fourier_transform.h"
+
+1406559876 c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\fourier_transform.h
+
+1401290402 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\galois.c
+	<stdio.h>
+	<stdlib.h>
+	"ecc.h"
+
+1426087162 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\hadamard.c
+	"hadamard.h"
+	"number_printing.h"
+
+1426091216 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\hash.c
+
+1401306756 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\number_printing.c
+
+1402427742 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\rs.c
+	<stdio.h>
+	"ecc.h"
+
+1426087205 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\testing.c
+	<stdio.h>
+	<stdlib.h>
+	"cryptosystem.h"
+	"ecc.h"
+	"hadamard.h"
+
+1426090520 source:c:\users\charles\documents\college\thesis\software_projects\generic_daugman_cryptosystem\verification.c
+	<stdio.h>
+	<stdlib.h>
+	"cryptosystem.h"
+	"ecc.h"
+	"hadamard.h"
+	"number_printing.h"
+	"fix.h"
+	"hash.h"
+

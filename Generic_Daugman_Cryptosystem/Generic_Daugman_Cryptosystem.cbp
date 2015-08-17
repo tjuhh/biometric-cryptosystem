@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Generic_Daugman_Cryptosystem" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Generic_Daugman_Cryptosystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Generic_Daugman_Cryptosystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Generic_Daugman_Cryptosystem.cbp" />
+		<Unit filename="Readme.txt" />
+		<Unit filename="berlekamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crcgen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cryptosystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cryptosystem.h" />
+		<Unit filename="data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="data.h" />
+		<Unit filename="ecc.h" />
+		<Unit filename="enrollment.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fix.h" />
+		<Unit filename="fourier_transform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fourier_transform.h" />
+		<Unit filename="galois.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hadamard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hadamard.h" />
+		<Unit filename="hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hash.h" />
+		<Unit filename="number_printing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="number_printing.h" />
+		<Unit filename="rs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="testing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="testing.h" />
+		<Unit filename="verification.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
